@@ -1,0 +1,11 @@
+###
+랜덤한 정수를 입력받고, 입력받은 정수의 각 자릿수를 더한 수를 출력하는 코드
+###
+
+def solution(n):
+
+
+    a = list(map(int, str(n)))
+    a.sort(reverse=True)
+    tt = sum(a)
+    return tt
