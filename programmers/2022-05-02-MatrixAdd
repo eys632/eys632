@@ -1,0 +1,12 @@
+###
+두 변수에 임의의 리스트가 할당되면, 두 변수를 더하여 출력하는 문제
+
+이 코드를 짜기 전에 넘파이.ndarray형태로 리턴되는것 때문에 계속 틀렸다고 떳다. 
+그때문에 넘파이 형태를 .tolist()를 이용하여 리스트형태로 변환시켜서 문제를 풀었다. 
+다음부터는 문제에서 요구하는 것이 무엇인지 정확하게 파악해야 할것이다. 
+###
+
+import numpy as np
+def solution(arr1, arr2):
+    answer = np.array(arr1) + np.array(arr2)
+    return answer.tolist()
