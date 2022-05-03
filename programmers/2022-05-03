@@ -1,0 +1,9 @@
+###
+임의의 리스트를 입력받으면 리스트의 원소개수, 총합 하여 평균을 반환하는 코드
+###
+
+def solution(arr):
+    answer = len(arr)
+    adar = sum(arr)
+    answer = adar/answer
+    return answer
